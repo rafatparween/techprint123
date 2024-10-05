@@ -35,7 +35,6 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <p>Our Policies</p>
                     <div className="flex flex-col text-start mb-4 md:mb-0 text-[14px]">
                         {[
                             { name: 'Terms and Conditions', path: '/termsConditions' },

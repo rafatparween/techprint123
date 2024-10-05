@@ -1,4 +1,8 @@
 {
+  "/contact/page": "app/contact/page.js",
+  "/services/page": "app/services/page.js",
+  "/disclaimer/page": "app/disclaimer/page.js",
+  "/privacyPolicy/page": "app/privacyPolicy/page.js",
   "/page": "app/page.js",
-  "/privacyPolicy/page": "app/privacyPolicy/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
