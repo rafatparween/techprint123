@@ -274,6 +274,7 @@
 "use client";
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
+import JivoChat from '../Jivochat';
 
 function Home() {
   const router = useRouter();
@@ -332,6 +333,7 @@ function Home() {
   };
 
   return (
+    <>
     <div className="h-[409px] mt-[80px]">
       <section 
         className="flex flex-col justify-center items-center text-center py-12 relative bg-cover bg-center h-[409px]"
@@ -391,6 +393,8 @@ function Home() {
       <h1 className="text-[18px] w-[832px] h-[51px] ml-[369px] mt-[100px]">Install Smart driver and drivers on each mobile device or computer that you want to print from. Add the printer on the new device.</h1>
       <h1 className="mt-[30px] ml-[369px]">Need additional help with set-up? Visit <span className="text-[#007DBA]">Support</span></h1>
     </div>
+    <JivoChat/>
+    </>
   );
 }
 
