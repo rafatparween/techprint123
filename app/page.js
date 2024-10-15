@@ -21,7 +21,7 @@ function Home() {
       <Assistance/>
       <Avoid/>
       <Helppage/>
-      <Customer/>
+      {/* <Customer/> */}
       <Footer />
 
 
