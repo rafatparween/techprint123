@@ -6,7 +6,7 @@ const JivoChat = () => {
   useEffect(() => {
     const loadJivoChatScript = () => {
       const script = document.createElement('script');
-      script.src = "//code.jivosite.com/widget/kd9uAKn19v";
+      script.src = "//code.jivosite.com/widget/NXU896TaVh";
       script.async = true;
       document.body.appendChild(script);
       script.onload = () => {
