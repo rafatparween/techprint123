@@ -14,7 +14,7 @@ const Chatlink = () => {
       >
         <div className="line-before"></div> {/* Horizontal line */}
         <i className="fas fa-phone-square-alt mr-2" aria-hidden="true"></i>
-        <span className='text-[24px]'>Chat Us Now</span>
+        <span className='text-[24px]'>Chat Now</span>
         <div className={`absolute bottom-[-5px] right-0 h-[4px] bg-[#1c85c1] transition-all duration-300 ease-in-out ${hover ? 'w-[700%]' : 'w-0'}`}></div>
       </div>
     </header>
