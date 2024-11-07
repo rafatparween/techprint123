@@ -17,7 +17,7 @@ export default function Storepage() {
     ];
 
     return (
-        <div className="max-w-4xl mx-auto p-6 mt-[100px]">
+        <div className="max-w-4xl mx-auto p-6 mt-[100px] 2xl:ml-[71px] xl:ml-[30px]">
             {/* Store icons aligned to the right */}
             <div className="flex justify-end space-x-2 mb-6">
                 {/* <img src="https://w7.pngwing.com/pngs/867/239/png-transparent-google-play-logo-google-play-android-app-store-play-now-button-text-label-logo.png" alt="Google Play" className="h-[40px] w-[129px] object-contain" /> */}
@@ -25,7 +25,7 @@ export default function Storepage() {
 
             {/* Troubleshooting heading with icon */}
             <div className="flex items-center space-x-2 mb-6">
-                <img src='https://wingscarepro.com/setup/resources/assets/img/tips.png' />
+            <img src='https://www.shutterstock.com/image-vector/assistance-settings-troubleshooting-repair-isolated-260nw-2309816209.jpg' className='h-[40px] w-[40px]' />
                 <h2 className="text-[#007DBA] text-[30px] font-semibold">
                     Troubleshooting tips for launching the Microsoft Store
                 </h2>

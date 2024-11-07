@@ -12,30 +12,60 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/services/Pages/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/Pages/page.js"
-    ],
     "/offline/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/offline/page.js"
     ],
-    "/services/Pages/install/page": [
+    "/offline/install/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/services/Pages/install/page.js"
+      "static/chunks/app/offline/install/page.js"
     ],
-    "/services/Pages/install/process/page": [
+    "/offline/install/process/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/services/Pages/install/process/page.js"
+      "static/chunks/app/offline/install/process/page.js"
     ],
-    "/services/Pages/install/process/error/page": [
+    "/printer/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/services/Pages/install/process/error/page.js"
+      "static/chunks/app/printer/page.js"
+    ],
+    "/printer/install/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/printer/install/page.js"
+    ],
+    "/printer/install/process/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/printer/install/process/page.js"
+    ],
+    "/scanner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/scanner/page.js"
+    ],
+    "/scanner/install/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/scanner/install/page.js"
+    ],
+    "/scanner/install/process/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/scanner/install/process/page.js"
+    ],
+    "/scanner/install/process/error/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/scanner/install/process/error/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

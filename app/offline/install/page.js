@@ -125,27 +125,27 @@
 
 // export default Printersearch;
 
-
-"use client"; // This should be at the top of the file
-
+"use client"
 import Storepage from '@/app/components/Storepage';
+import JivoChat from '@/app/Jivochat';
 import Link from 'next/link';
 
 function Printersearch() {
   return (
     <>
-      <div className="h-[530px] mt-[80px]">
+      <div className="h-[530px]">
         <section
           className="flex flex-col justify-center items-center text-center py-12 relative bg-cover bg-center h-[530px]"
           style={{
-            backgroundImage: "url('https://wingscarepro.com/setup/resources/assets/css/page/resources/assets/img/top_background_image.png')"
+            backgroundImage: "url('https://as1.ftcdn.net/v2/jpg/05/21/66/12/1000_F_521661218_MNYc5lCrIQUKKwBfIGzxJYHYxZzwNof9.jpg')"
           }}
         >
-          <div className="absolute inset-0 opacity-80"></div>
+          {/* <div className="absolute inset-0 opacity-80"></div> */}
+          <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div>
 
           {/* Main content */}
-          <div className="relative z-10 text-white 2xl:ml-[-392px]">
-            <h1 className="text-[54px] mb-4 xl:ml-[-247px] 2xl:ml-[5px]">Complete setup using Professionals Help</h1>
+          <div className="relative z-10 text-white 2xl:ml-[-392px] xl:ml-[108px]">
+            <h1 className="text-[54px] mb-4 xl:ml-[-145px] 2xl:ml-[5px]">Complete setup using Professionals Help</h1>
             <div className="border-t border-white w-[1100px] mx-auto mb-8 mt-[-19px] xl:ml-[-4px]"></div>
 
             {/* Main Content Section */}
@@ -164,28 +164,28 @@ function Printersearch() {
                 </div>
                 <Link href="./install/process">
                   <button className="install border border-white mt-8 bg-white w-[230px] h-[50px]  2xl:ml-[-189px] xl:ml-[-301px] py-2 px-6 rounded-lg font-bold shadow-md hover:bg-gray-100 transition duration-300 relative overflow-hidden">
-                    <h1 className='text-[16px] text-black'>Install Setup & Drivers</h1>
+                    <h1 className='text-[16px] text-black'>Install Hp Easy Start</h1>
                   </button>
                 </Link>
               </div>
 
               {/* Printer and Devices Image */}
               <div className="relative z-10 mt-12 lg:mt-0 lg:w-1/2 flex justify-center">
-                <img
-                  src="https://wingscarepro.com/setup/resources/printer_images/OTHER-PRINTERS/290x245.png"  // Replace with actual path
+                {/* <img
+                  src="https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/s/e/selene_4303_fdw_00002.png"  // Replace with actual path
                   alt="Printer setup devices"
                   width={316}
                   height={252}
                   className="object-contain 2xl:mr-[-1041px] "
-                />
+                /> */}
               </div>
             </div>
           </div>
         </section>
 
         {/* Additional content */}
-        <div className="flex flex-col items-center">
-          <h1 className="mt-[30px] ml-[-592px] text-[16px]">Also available on:</h1>
+        <div className="flex flex-col items-center xl:ml-[-468px] 2xl:ml-[-688px]">
+          <h1 className="mt-[30px] 2xl:ml-[-592px] xl:ml-[-592px] text-[16px]">Also available on:</h1>
           <img 
             src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png" 
             className="h-[50px] mt-4 ml-[-406px] " 
@@ -194,6 +194,7 @@ function Printersearch() {
         </div>
       </div>
       <Storepage />
+      <JivoChat/>
     </>
   );
 }
