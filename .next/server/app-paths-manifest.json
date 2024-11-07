@@ -1,4 +1,8 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/services/Pages/page": "app/services/Pages/page.js",
+  "/offline/page": "app/offline/page.js",
+  "/services/Pages/install/page": "app/services/Pages/install/page.js",
+  "/services/Pages/install/process/page": "app/services/Pages/install/process/page.js",
+  "/services/Pages/install/process/error/page": "app/services/Pages/install/process/error/page.js"
 }
