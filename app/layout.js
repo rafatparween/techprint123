@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "123techprint.com",
+  title: "123-printersolution",
   description: "123techprint.com",
 };
 

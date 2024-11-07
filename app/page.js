@@ -9,6 +9,8 @@ import Helppage from "./components/Helppage";
 
 import PrinterSetup from "./services/content/PrinterSetup";
 import { Help } from "@mui/icons-material";
+import FooterSection from "./components/FooterSection";
+import JivoChat from "./Jivochat";
 
 function Home() {
   return (
@@ -22,7 +24,8 @@ function Home() {
       <Avoid/>
       <Helppage/>
       {/* <Customer/> */}
-      <Footer />
+      <FooterSection/>
+      <JivoChat/>
 
 
     </>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import PrintIcon from '@mui/icons-material/Print';
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Chatlink = () => {
   const [hover, setHover] = useState(false);
@@ -19,7 +20,7 @@ const Chatlink = () => {
       </div>
     </header>
   );
-};
+}
 
 const Navbar = () => {
   return (
@@ -27,7 +28,16 @@ const Navbar = () => {
       <div className="flex gap-5 items-center py-3 justify-between">
         <ul className="ml-[80px] flex gap-8 text-[#1C8DCE] text-[24px]">
           <Link legacyBehavior href="/" passHref>
-            <a className="hover:text-[#3730a3] p-2 rounded">Home</a>
+            {/* <a className="hover:text-[#3730a3] p-2 rounded">Home</a> */}
+            <div className="flex items-center mr-4 xl:ml-[-60px] 2xl:ml-[2px]">
+          <Image
+            src="/hplogo.png" // Replace with the correct path to your logo
+            alt="HP Logo"
+            width={53}
+            height={53}
+          />
+        </div>
+            
           </Link>
           <Link legacyBehavior href="/offline" passHref>
             <a className="hover:text-[#3730a3] p-2 rounded">Printer Offline</a>

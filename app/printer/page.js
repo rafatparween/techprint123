@@ -278,6 +278,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import JivoChat from '@/app/Jivochat';
 import Popup from '@/app/components/Popup';
+import NavbarSection from '../components/NavbarSection';
+import FooterSection from '../components/FooterSection';
 
 function Home() {
   const router = useRouter();
@@ -337,6 +339,7 @@ function Home() {
 
   return (
     <>
+      <NavbarSection/>
       <div className="h-[409px] ">
       <section
   className="relative flex flex-col justify-center items-center text-center py-12 h-[409px] bg-cover bg-center"
@@ -433,6 +436,7 @@ function Home() {
       <div className='mt-[350px]'>
 
       </div>
+      <FooterSection/>
       <JivoChat/>
 
     </>

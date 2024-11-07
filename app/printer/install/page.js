@@ -127,6 +127,8 @@
 
 
 "use client"
+import FooterSection from '@/app/components/FooterSection';
+import NavbarSection from '@/app/components/NavbarSection';
 import Storepage from '@/app/components/Storepage';
 import JivoChat from '@/app/Jivochat';
 import Link from 'next/link';
@@ -134,6 +136,7 @@ import Link from 'next/link';
 function Printersearch() {
   return (
     <>
+      <NavbarSection/>
       <div className="h-[530px]">
         <section
           className="flex flex-col justify-center items-center text-center py-12 relative bg-cover bg-center h-[530px]"
@@ -195,6 +198,7 @@ function Printersearch() {
         </div>
       </div>
       <Storepage />
+      <FooterSection/>
       <JivoChat/>
     </>
   );
