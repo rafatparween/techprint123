@@ -909,6 +909,9 @@ video {
 .mt-\[89px\] {
   margin-top: 89px;
 }
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
 .block {
   display: block;
 }
@@ -1715,6 +1718,9 @@ video {
 }
 .pl-5 {
   padding-left: 1.25rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
 }
 .pl-\[67px\] {
   padding-left: 67px;
